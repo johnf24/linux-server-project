@@ -2,7 +2,7 @@
 This is a baseline installation of an Linux distribution on a virtual machine. It hosts web applications to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers.
 
 ## Server Details
-Public IP Address: 18.221.163.185
+Public IP Address: 18.221.163.185 <br />
 SSH Port: 2200
 URL: http://ec2-18-221-163-185.us-east-2.compute.amazonaws.com
 Software Installation: Ubuntu 14.4.5, Python 2.7.6, Apache2 2.4.7, PostgreSQL 9.3.18, Flask 0.12.2, SQLAlchemy 1.2, mod_wsgi package, Git
