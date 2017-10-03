@@ -1,15 +1,14 @@
 # Linux Server Configuration Project
-This is a baseline installation of an Linux distribution on a virtual machine. It hosts web applications to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers. It is the final project for the Udacity Full Stack Web Developer Nanodegree(https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004) co-created by Amazon Web Services, GitHub, AT&T and Google.
+This is a baseline installation of an Linux distribution on a virtual machine. It hosts web applications to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers. It is the final project for the [Udacity Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004) co-created by Amazon Web Services, GitHub, AT&T and Google.
 
 ## Server Details
 Public IP Address: ~~18.221.163.185~~ <br/>
 SSH Port: 2200 <br/>
 URL: ~~http://ec2-18-221-163-185.us-east-2.compute.amazonaws.com~~ <br/>
 Software Installation: Ubuntu 14.4.5, Python 2.7.6, Apache2 2.4.7, PostgreSQL 9.3.18, Flask 0.12.2, SQLAlchemy 1.2, mod_wsgi package, Git <br/>
-Configurations Made: '' <br/>
 Resources: [Apache Documentation](https://httpd.apache.org/docs/2.2/configuring.html),
 
- [PostgreSQL Documentation](https://www.postgresql.org/), [Ubuntu Documentation](https://help.ubuntu.com/community/Sudoers), [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps), (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04), (https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps), (https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server) [Stack Overflow](https://stackoverflow.com/questions/6142437/make-git-directory-web-inaccessible).
+[PostgreSQL Documentation](https://www.postgresql.org/),[Ubuntu Documentation](https://help.ubuntu.com/community/Sudoers),[Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps),(https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04),(https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps),(https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server),[Stack Overflow](https://stackoverflow.com/questions/6142437/make-git-directory-web-inaccessible).
 
 ## Installation
 
