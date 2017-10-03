@@ -1,5 +1,6 @@
 # Linux Server Configuration Project
-This is a baseline installation of an Linux distribution on a virtual machine. It hosts web applications to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers. <br/><br/>
+This is a baseline installation of an Linux distribution on a virtual machine. It hosts web applications to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers.
+
 This is the final project for the [Udacity Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004) co-created by Amazon Web Services, GitHub, AT&T and Google.
 
 ## Server Details
@@ -7,7 +8,7 @@ Public IP Address: ~~18.221.163.185~~ <br/>
 SSH Port: 2200 <br/>
 URL: ~~http://ec2-18-221-163-185.us-east-2.compute.amazonaws.com~~ <br/>
 Software Installation: Ubuntu 14.4.5, Python 2.7.6, Apache2 2.4.7, PostgreSQL 9.3.18, Flask 0.12.2, SQLAlchemy 1.2, mod_wsgi package, Git <br/>
-Resources: [Apache Documentation](https://httpd.apache.org/docs/2.2/configuring.html)
+Resources: [Apache Documentation](https://httpd.apache.org/docs/2.2/configuring.html), 
 
 [PostgreSQL Documentation](https://www.postgresql.org/), [Ubuntu Documentation](https://help.ubuntu.com/community/Sudoers), [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps), (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04), (https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps), (https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
 
@@ -81,20 +82,20 @@ Resources: [Apache Documentation](https://httpd.apache.org/docs/2.2/configuring.
 9. Create Flask file by running command 'sudo nano __init__.py'.
 10. Paste content and save file.
 
-`from flask import Flask
+```from flask import Flask
 app = Flask(__name__)
 @app.route("/")
 def hello():
     return "Hello World!"
 if __name__ == "__main__":
-    app.run()`
+    app.run()```
 
 11. Run Flask file with command 'sudo __init__.py'.
 12. Deactive Virtualenv by running command 'deactivate'.
 13. Create virtual enviroment configuration file by running command 'sudo nano /etc/apache2/sites-available/catalog.conf'.
 14. Paste content and save file.
 
-`<VirtualHost *:80>
+```<VirtualHost *:80>
      ServerName 18.221.163.185
      ServerAdmin admin@18.221.163.185
      ServerAlias ec2-18-221-163-185.us-east-2.compute.amazonaws.com
@@ -111,19 +112,19 @@ if __name__ == "__main__":
      ErrorLog ${APACHE_LOG_DIR}/error.log
      LogLevel warn
      CustomLog ${APACHE_LOG_DIR}/access.log combined
-  </VirtualHost>`
+  </VirtualHost>```
 
 15. Enable virtual enviroment by running command 'sudo a2ensite catalog'.
 16. Navigate to Catalog directory with command 'cd /var/www/catalog' and create a WSGI file by running command 'sudo nano catalog.wsgi'.
 17. Paste content and save file.
 
-`#!/usr/bin/python
+```#!/usr/bin/python
 import sys
 import logging
 logging.basicConfig(stream=sys.stderr)
 sys.path.insert(0,"/var/www/catalog/")
 from catalog import app as application
-application.secret_key = 'secret`
+application.secret_key = 'secret```
 
 18. Restart Apache again by running command 'sudo service apache2 restart'.
 
