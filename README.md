@@ -7,9 +7,9 @@ Public IP Address: ~~18.221.163.185~~ <br/>
 SSH Port: 2200 <br/>
 URL: ~~http://ec2-18-221-163-185.us-east-2.compute.amazonaws.com~~ <br/>
 Software Installation: Ubuntu 14.4.5, Python 2.7.6, Apache2 2.4.7, PostgreSQL 9.3.18, Flask 0.12.2, SQLAlchemy 1.2, mod_wsgi package, Git <br/>
-Resources: [Apache Documentation](https://httpd.apache.org/docs/2.2/configuring.html) 
+Resources: [Apache Documentation](https://httpd.apache.org/docs/2.2/configuring.html)
 
-[PostgreSQL Documentation](https://www.postgresql.org/) [Ubuntu Documentation](https://help.ubuntu.com/community/Sudoers) [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps),(https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04),(https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps),(https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
+[PostgreSQL Documentation](https://www.postgresql.org/), [Ubuntu Documentation](https://help.ubuntu.com/community/Sudoers), [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps), (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04), (https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps), (https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
 
 ## Installation
 
