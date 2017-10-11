@@ -1,4 +1,4 @@
-# Linux Server Configuration Project
+# Linux Server Configuration
 This is a baseline installation of an Linux distribution on a virtual machine. It hosts web applications to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers.
 
 This is the final project for the [Udacity Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004) co-created by Amazon Web Services, GitHub, AT&T and Google.
